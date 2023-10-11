@@ -63,33 +63,33 @@ The data set contains the following diseases:
   - 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-	Too early to say overfitting or underfitting, Validation accuray and Training accuracy follow each other.
-	Training loss is low but validation loss is fluctuating
-- Conclusion 2 from the analysis
-  	The accuracy remains the same as per first. But still low accuracy
+1) Conclusion 1 from the analysis
+	It is early to say overfitting or underfitting, Validation accuracy and Training accuracy follow each other.
+	The training loss is low but validation loss is fluctuating
+2) Conclusion 2 from the analysis
+  	The accuracy remains the same as before, But still low accuracy
 	- Which class has the least number of samples?
 		-- seborrheic Keratosis
 	- Which classes dominate the data in terms proportionate number of samples?
 		-- Melanoma and Pigmented benign keratosis actinic keratosis and dermatofibroma
   
-- Conclusion 3 from the analysis
+3) Conclusion 3 from the analysis
 
- Now we have added 500 images to all the classes to maintain some class balance. 
-- pigmented benign keratosis    962
-- melanoma                      938
-- basal cell carcinoma          876
-- nevus                         857
-- squamous cell carcinoma       681
-- vascular lesion               639
-- actinic keratosis             614
-- dermatofibroma                595
-- seborrheic keratosis          577
+	 Added 500 images to all the classes to maintain some class balance. 
+	- pigmented benign keratosis    962
+	- melanoma                      938
+	- basal cell carcinoma          876
+	- nevus                         857
+	- squamous cell carcinoma       681
+	- vascular lesion               639
+	- actinic keratosis             614
+	- dermatofibroma                595
+	- seborrheic keratosis          577
 
 
 - Validation accuracy is around .889
 - Training and validation accuracy follow eachother
-- Same with Training and Validation loss.
+- Same pattern can be seen with Training and Validation loss.
 
 
 ## Technologies Used
